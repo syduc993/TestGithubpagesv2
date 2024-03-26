@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedded Code Example</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="prism.css" />
+</head>
+<body>
+    <div class="code-container">
+        <pre>
+            <code class="language-python">
+                import pandas as pd
+
+                data = {
+                    'OrderID': [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+                    'Product': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'],
+                    'Quantity': [5, 3, 2, 7, 4, 6, 1, 8, 9, 2],
+                    'Price': [10.99, 5.99, 8.49, 3.99, 12.99, 7.49, 6.99, 9.99, 4.99, 11.49]
+                }
+
+                sales_df = pd.DataFrame(data)
+                print(sales_df)
+            </code>
+        </pre>
+    </div>
+    <script src="prism.js"></script>
+</body>
+</html>
+
+

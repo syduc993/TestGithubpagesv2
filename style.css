@@ -1,0 +1,17 @@
+/* styles.css */
+
+pre.sourceCode.sql {
+    background-color: #f4f4f4;
+    padding: 10px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Đặt chiều cao theo ý muốn */
+}
